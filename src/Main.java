@@ -1,10 +1,6 @@
 //aqui teremos um programa onde poderemos trocar os valores das duas variaveis sem precisar criar uma nova variavel pra isso
-import java.io.IOException;
-
 public class Main {
-    public static void main(String[] args) throws IOException /*aqui eu jogo um exception pois como é um programa
-     mais simples e curto, caso haja algum erro eu quero que só mostre o erro, evitando do código ficar
-     maior com try e cath*/ {
+    public static void main(String[] args) {
         int A = 5;
         int B = 10;
 
